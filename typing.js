@@ -44,7 +44,7 @@ var wordlist = ["html",
             ];
                 
 var wordlistJapanese = ["HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","HTMLより","CSSより"];
-var time_limit = 90;
+var time_limit = 30;
 var readytime = 3;
 var score;
 var correct;
@@ -63,7 +63,7 @@ function ready(){
         if(readytime < 0){
             clearInterval(readytimer);
             gameStart();
-            }
+        }
     },1000);
 }
 

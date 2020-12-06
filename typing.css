@@ -5,6 +5,10 @@ body {
      color: #222;
      text-align: center;
      background-color: #ffffff;
+     
+    }
+
+.wrap{
      outline: 10px solid black;
 
      position: absolute;
@@ -13,8 +17,9 @@ body {
      top: 30%;
      left: 50%;
      transform: translate(-50%,-50%);
-    }
 
+     background-color: antiquewhite;
+}
 
 .thema{
      font-size: 6ex;
